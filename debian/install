@@ -1,0 +1,3 @@
+.build/							usr/src/E5DiOS_RR_BACK
+terraform/scripts/install.sh	usr/src/E5DiOS_RR_BACK
+terraform/scripts/start.sh		usr/src/E5DiOS_RR_BACK

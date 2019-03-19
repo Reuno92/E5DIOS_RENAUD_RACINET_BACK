@@ -1,0 +1,4 @@
+module agentcore {
+    umbrella "/Users/MacRenaud/Desktop/E5DiOS_RR_BACK/.build/checkouts/omr-agentcore-7507680469337492672/src/agentcore/include"
+    export *
+}

@@ -1,0 +1,13 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: E5DiOS_RR_BACK
+  buildpack: swift_buildpack
+  command: "'E5DiOS_RR_BACK'"
+  memory: 128M
+  random-route: true
+  services:
+    - E5DiOS_RR_BACK-AutoScaling-i3h9
+  env:
+    OPENAPI_SPEC : "/swagger/api"
